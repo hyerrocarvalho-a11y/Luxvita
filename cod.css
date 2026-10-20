@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+
+Header {
+  background-color: lightsalmon;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.logotipo {
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+.navlink {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 8px 14px;
+  transition: color 0.5s ease, background-color 0.3s ease;
+
+}
+
+.navlink a:hover {
+  color: aliceblue;
+  background-color: darksalmon;
+
+
+
+
+}
+
+footer{
+  background-color: lightsalmon;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+.navlink2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navlink2 a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 8px 14px;
+  transition: color 0.5s ease, background-color 0.3s ease;
+
+}
+.navlink2 a:hover {
+  color: aliceblue;
+  background-color: darksalmon;
+
+
+
+
+}
+
+
+/*A pagina inicial*/
+.titulo {
+
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+
+}
+
+.conteudo {
+  background-color: lightsalmon;
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  min-height: 150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 40px;
+  gap: 15px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.conteudo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+
+
+.conteudo:hover {
+  color: aliceblue;
+  background-color: salmon;
+}
+
+/*A pagina sobre nós*/
+.fundo2 {
+  background-image: url('floresta.imagem.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: black;
+  margin: 0;
+
+}
+
+
+
+.intro2 {
+
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 40px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conteudo2 {
+  background-color: darkgreen;
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  border: 2px solid #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* a pagina de projetos */
+.titulo3 {
+
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 40px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.caixapaiprojeto {
+
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+
+}
+
+.caixafilha1projeto {
+  background-color: darkgreen;
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  gap: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.caixafilha2projeto {
+  background-color: darkgreen;
+  text-align: center;
+  width: 750px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
